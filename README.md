@@ -52,7 +52,7 @@ Le problème revient à chercher les points critiques de la fonctionnelle $J$ su
 ## 3. Démonstration de l'Existence (En 3 étapes clés)
 
 ### Étape 1 : Coercivité de la fonctionnelle J (La fonctionnelle est minorée)
-Pour prouver que la fonctionnelle possède un minimum (un "qaa"), il faut montrer qu'elle tend vers $+\infty$ lorsque la norme $\|u\| \to \infty$.
+Pour prouver que la fonctionnelle possède un minimum global, il faut montrer qu'elle tend vers $+\infty$ lorsque la norme $\|u\| \to \infty$.
 
 Grâce à l'inégalité de Poincaré, il existe une constante $C_P > 0$ telle que : 
 $$\int_\Omega u^2 \,dxdy \leq C_P \int_\Omega |\nabla u|^2 \,dxdy$$
